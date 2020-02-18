@@ -1,0 +1,10 @@
+name: myenv
+channels:
+  - conda-forge
+dependencies:
+  - xarray=0.15
+  - matplotlib-base=3.1
+  - hvplot=0.5
+  - pip=20.0
+  - pip:
+    - sat-search==0.2
