@@ -3,9 +3,8 @@ channels:
   - conda-forge
 dependencies:
   - pangeo-notebook==0.0.2
-  - xarray=0.15
-  - matplotlib-base=3.1
-  - hvplot=0.5
-  - pip=20.0
+  - xarray
+  - hvplot
+  - pip
   - pip:
-    - sat-search==0.2
+    - sat-search
