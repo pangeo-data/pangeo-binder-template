@@ -1,7 +1,10 @@
-#!/bin/bash
+#!/bin/bash -l
 
-#https://mybinder.readthedocs.io/en/latest/config_files.html#start-run-code-before-the-user-sessions-starts
+# ==== ONLY EDIT WITHIN THIS BLOCK =====
 
-export MY_ENV_VAR="myValue"
+export PANGEO_ENV="base"
 
-exec "$@" 
+# ==== ONLY EDIT WITHIN THIS BLOCK =====
+
+exec "$@"
+
