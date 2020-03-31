@@ -2,7 +2,7 @@
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
-export PANGEO_ENV="base"
+export PANGEO_ENV="BINDER_TEMPLATE"
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
