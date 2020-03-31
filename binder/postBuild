@@ -1,10 +1,8 @@
 #!/bin/bash
-set -euo pipefail
 
-# labextensions
 jupyter labextension install --clean \
                             @jupyter-widgets/jupyterlab-manager \
-                            dask-labextension \ 
+                            dask-labextension \
                             @pyviz/jupyterlab_pyviz
 
 #EOF
