@@ -1,8 +1,6 @@
 #!/bin/bash
 
-jupyter labextension install --clean \
-                            @jupyter-widgets/jupyterlab-manager \
-                            dask-labextension \
-                            @pyviz/jupyterlab_pyviz
+# you can add commands that run after builing the environment here!
+# https://repo2docker.readthedocs.io/en/latest/config_files.html#postbuild-run-code-after-installing-the-environment
 
 #EOF
