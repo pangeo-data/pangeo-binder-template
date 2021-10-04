@@ -2,7 +2,9 @@ name: myenv
 channels:
   - conda-forge
 dependencies:
-  - pangeo-notebook==2021.02.07
+  # You need the pangeo-notebook conda-forge package in your environment.yml for compatibility with pangeo cloud deployments
+  - pangeo-notebook==2021.09.30
+  # The rest of the packages are up to you!
   - xarray
   - hvplot
   - pip
